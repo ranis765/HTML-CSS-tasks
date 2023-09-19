@@ -9,106 +9,125 @@
 
 <body>
 	<header>
-		<nav>
-			<div>
-				<div><a href="">Мастер-классы</a></div>
-				<div><a href="">Мебель на заказ</a></div>
-			</div>
-			<img src="..\laba\images\IMG_1024 4.svg" alt="img">
-			<div>
-				<div><a href="">Контакты</a></div>
-				<div><a href="">О нас</a></div>
-			</div>
-		</nav>
+		<nav class="nav">
+			<ul class="nav__list">
+			  <li class="nav__item nav__item-current">
+				<a class="nav__link" href="./master.html">Мастер-классы</a>
+			  </li>
+			  <li class="nav__item">
+				<a class="nav__link" href="./index.html">Мебель на заказ</a>
+			  </li>
+			  <div class="logo">
+				<img src="..\laba\img\logotype.svg" alt="img">
+			  </div>
+			  <li class="nav__item">
+				<a class="nav__link" href="#">Контакты</a>
+			  </li>
+			  <li class="nav__item">
+				<a class="nav__link" href="./about.html">О нас</a>
+			  </li>
+			</ul>
+		  </nav>
+		
 	</header>
-	<main class="main">
-		<section class="top">
-			<img src="..\laba\images\about-img\Rectangle 83.png" alt="img">
-			<h1>История создания мастерской</h1>
-			<h1>NIKASON BRAND</h1>
-			<div class="top_box">
-				<div>
-					<p class="num">
-						+10 лет
-					</p>
-					<p>На рынке по производству мебели</p>
-				</div>
-				<div>
-					<p class="num">
-						+1500
-					</p>
-					<p>Изготовлено мебели</p>
-				</div>
-				<div>
-					<p class="num">
-						120 лет
-					</p>
-					<p>Самой старинной мебели для реставрации</p>
-				</div>
+
+	<main>
+		<section>
+			<div class="content">
+				<h1>История создания мастерской</h1>
+				<h1>NIKASON BRAND</h1>
 			</div>
+			<img src="..\laba\img\about-img\owner_photo.png" alt="img">
 		</section>
 
-		<section class="bio">
-			<div class="bio-info">
-				<img src="..\laba\images\about-img\IMG_4420 1.png" alt="img">
-			</div>
-			<div class="bio-info">
-				<p>Никита Колодезников-Матчитов</p>
-				<p>Основатель мастерской</p>
+		<section>
+            <ul class="top_box">
+                <li>
+                    <h2>+10 лет</h2>
+                    <h4>На рынке по производству мебели</h4>
+                </li>
+                <li>
+                    <h2>+1500</h2>
+                    <h4>Изготовлено мебели</h4>
+                </li>
+                <li>
+                    <h2>120 лет</h2>
+                    <h4>Самой старинной мебели для реставрации </h4>
+                </li>
+            </ul>
+        </section>
+
+		<section>
+			<div class="biography">
+				<img src="../laba\img\about-img\biography.png" alt="img">
+				<h2>Никита Колодезников-Матчитов
+					<p>Основатель мастерской</p>
+				</h2>
 				<p>С детства я был окружен творческими людьми, мой дедушка был строителем и мастером по дереву.
 					Спустя много лет и мне передалась его любовь к дереву - в свободное время мастерил для себя
-					небольшие изделия из древесины.
-					Более десяти лет назад построил двухэтажный гараж, на втором этаже расположилась наша мастерская.
+					небольшие изделия из древесины.</p>
+				<br>
+				<p>Более десяти лет назад построил двухэтажный гараж, на втором этаже расположилась наша мастерская.
 					Начинал производство практически “с нуля”, с каждой зарплаты понемногу откладывал на покупку
-					инстурментов и станков.
-
-					Постепенно начали появляться первые заказы. Несколько лет назад
+					инстурментов и станков.</p>
+				<br>
+				<p>Постепенно начали появляться первые заказы. Несколько лет назад
 					мы с супругой решили еще заняться ремонтом и реставрацией мебели. Эту идею предложили сами клиенты,
 					поскольку периодически приходили с таким запросом. В основном, реставрацией занимается супруга
 					Саргылана.
 					Мы с ней одна сплоченная, дружная и отличная команда. </p>
+				<br>
+
 			</div>
-			<div>
-				<h1>Философия мастерской NIKASON</h1>
-				<q>Создавать что-то по-настоящему ценное и уникальное. Дарить радость и уют в каждый дом</q>
+		</section>
+
+		<section>
+			<h1>Философия мастерской NIKASON</h1>
+			<div class="filosophy">
+				<h4>Создавать что-то по-настоящему ценное и уникальное. <br>Дарить радость и уют в каждый дом</h4>
 			</div>
 		</section>
 
 		<section class="cmi">
 			<h1>СМИ о нас</h1>
-			<p>О нашей мастерской пишут многие издания Якутии</p>
-			<div class="cmi_images">
-				<img src="..\laba\images\about-img\IMG_5597 1.png" alt="img">
-				<img src="..\laba\images\about-img\IMG_5605 1.png" alt="img">
-				<img src="..\laba\images\about-img\IMG_5604 1.png" alt="img">
-				<img src="..\laba\images\about-img\IMG_5624 1.png" alt="img">
+			<div class="cmiabout">
+				<h4>О нашей мастерской пишут многие издания Якутии</h4>
+				<img src="../laba\img\about-img\smiabout1.png" alt="img">
+				<img src="../laba\img\about-img\smiabout2.png" alt="img">
+				<img src="../laba\img\about-img\smiabout3.png" alt="img">
+				<img src="../laba\img\about-img\smiabout4.png" alt="img">
 			</div>
+			
+		</section>
+		<section>
 			<h1>Оставьте заявку и мы с вами свяжемся</h1>
-			<button class="cmi_button">Оставить заявку</button>
+			<div class="application">
+				<button class="cmi_button">Оставить заявку</button>
+			</div>
 		</section>
 
 	</main>
 	<footer class="footer">
 		<div class="footer-inner">
 			<div>
-				<p>ИП Колодезников-Матчитов Н.И.
+				<p>ИП Колодезников-Матчитов Н.И.<br>
 					ИНН 143515646663</p>
 			</div>
 			<div>
-				<a href="">Мастер-классы</a>
-				<a href="">Мебель на заказ</a>
+				<a href="./master.html">Мастер-классы</a>
+				<a href="./index.html">Мебель на заказ</a>
 			</div>
 			<div>
-				<a href="">Контакты</a>
-				<a href="">О нас</a>
+				<a href="#">Контакты</a>
+				<a href="./about.html">О нас</a>
 			</div>
 			<div>
-				<a href="">Политика кофиденциальности</a>
-				<a href="">Договор оферты</a>
+				<a href="#">Политика кофиденциальности</a>
+				<a href="#">Договор оферты</a>
 			</div>
 			<div>
-				<a href=""><img src="..\laba\images\Group 23.png" alt="img"></a>
-				<a href=""><img src="..\laba\images\Group 22.png" alt="img"></a>
+				<a href="#"><img src="..\laba\img\inst.png" alt="img"></a>
+				<a href="#"><img src="..\laba\img\whatsapp.png" alt="img"></a>
 			</div>
 		</div>
 	</footer>
