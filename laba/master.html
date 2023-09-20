@@ -9,123 +9,152 @@
 
 <body>
 	<header>
-		<nav>
-			<div>
-				<div><a href="">Мастер-классы</a></div>
-				<div><a href="">Мебель на заказ</a></div>
-			</div>
-			<img src="..\laba\images\IMG_1024 4.svg" alt="img">
-			<div>
-				<div><a href="">Контакты</a></div>
-				<div><a href="">О нас</a></div>
-			</div>
-		</nav>
+		<nav class="nav">
+			<ul class="nav__list">
+			  <li class="nav__item nav__item-current">
+				<a class="nav__link" href="./master.html">Мастер-классы</a>
+			  </li>
+			  <li class="nav__item">
+				<a class="nav__link" href="./index.html">Мебель на заказ</a>
+			  </li>
+			  <div class="logo">
+				<img src="..\laba\img\logotype.svg" alt="img">
+			  </div>
+			  <li class="nav__item">
+				<a class="nav__link" href="#">Контакты</a>
+			  </li>
+			  <li class="nav__item">
+				<a class="nav__link" href="./about.html">О нас</a>
+			  </li>
+			</ul>
+		  </nav>
+		
 	</header>
 
 	<main>
 		<section class="title">
-			<img src="..\laba\images\master-img\majid-gheidarlou-LuI6euS7Dno-unsplash 1.png" alt="img">
-			<div class="title__back">
+			<div class="title_back">
 				<h1>Нам доверяют мебель с историей в 120 лет</h1>
-				<button class="title__button">Смотреть мастер-классы</button>
+				<button class="title_button">Смотреть мастер-классы</button>
 			</div>
 		</section>
 
-		<section class="content">
+		<section>
 			<h1>Наши работы</h1>
 			<div class="content__box">
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 53.png" alt="img">
-					<figcaption>До</figcaption>
+					<img src="..\laba\img\master-img\wardrobe_before.png" alt="img">
+					<span>До</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 54.png" alt="img">
-					<figcaption>После</figcaption>
+					<img src="..\laba\img\master-img\wardrobe_after.png" alt="img">
+					<span>После</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 55.png" alt="img">
-					<figcaption>До</figcaption>
+					<img src="..\laba\img\master-img\chest_before.png" alt="img">
+					<span>До</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 56.png" alt="img">
-					<figcaption>После</figcaption>
+					<img src="..\laba\img\master-img\chest_after.png" alt="img">
+					<span>После</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 57.png" alt="img">
-					<figcaption>До</figcaption>
+					<img src="..\laba\img\master-img\locker_before.png" alt="img">
+					<span>До</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 59.png" alt="img">
-					<figcaption>После</figcaption>
+					<img src="..\laba\img\master-img\locker_after.png" alt="img">
+					<span>После</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 58.png" alt="img">
-					<figcaption>До</figcaption>
+					<img src="..\laba\img\master-img\armchair_before.png" alt="img">
+					<span>До</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\Rectangle 60.png" alt="img">
-					<figcaption>После</figcaption>
+					<img src="..\laba\img\master-img\armchair_after.png" alt="img">
+					<span>После</span>
 				</div>
 			</div>
 			<button class="content__button">Смотреть больше примеров</button>
 		</section>
 
-		<section class="list">
+		<section>
 			<h1>Какие техники изучите на МК</h1>
-			<div class="list_box">
-				<ol>
-					<li>Снятие старой краски</li>
-					<li>Устранение царапин и мелких дефектов</li>
-					<li>Ремонт маленьких и больших сколов</li>
-					<li>Ремонт поломанной и расклеившейся мебели</li>
-					<li>Замена старых поврежденных деталей</li>
-					<li>Приемы и идеи декора. Улучшение дизайна старой мебели</li>
-					<li>Покраска изделия</li>
-				</ol>
+			<div class="technologies">
+				<ul class="technologies-item">
+					<li class="circle-item">
+						<div class="circle">1</div>
+						<h4>Снятие старой краски</h4>
+					</li>
+					<li class="circle-item">
+						<div class="circle">2</div>
+						<h4>Устранение царапин и мелких дефектов</h4>
+					</li>
+					<li class="circle-item">
+						<div class="circle">3</div>
+						<h4>Ремонт маленьких и больших сколов</h4>
+					</li>
+					<li class="circle-item">
+						<div class="circle">4</div>
+						<h4>Ремонт поломанной и расклеившейся мебели</h4>
+					</li>
+					<li class="circle-item">
+						<div class="circle">5</div>
+						<h4>Замена старых поврежденных деталей</h4>
+					</li>
+					<li class="circle-item">
+						<div class="circle">6</div>
+						<h4>Приемы и идеи декора. Улучшение дизайна старой мебели</h4>
+					</li>
+					<li class="circle-item">
+						<div class="circle">7</div>
+						<h4>Покраска изделия</h4>
+					</li>
+				</ul>
 			</div>
 		</section>
 
-		<section class="conn">
-			<div class="conn_text">
-				<img src="..\laba\images\master-img\mitchell-luo-3Zy6U5swEio-unsplash 1.png" alt="img">
-				<h1>Подари вторую жизнь старой мебели и сохрани историю вашей семьи</h1>
+		<section>
+			<div class="agitation">
+				
+				<h1>Подари вторую жизнь старой мебели<br>	 и сохрани историю вашей семьи</h1>
 			</div>
 		</section>
 
-		<section class="images">
+		<section>
 			<h1>Мастер-классы по реставрации мебели</h1>
 			<div class="images_box">
 				<div>
-					<img src="..\laba\images\master-img\IMG_5633 1.png" alt="img">
-					<figcaption>Буфет</figcaption>
+					<img src="..\laba\img\master-img\buffet.png" alt="img">
+					<span>Буфет</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5768 1.png" alt="img">
-					<figcaption>Сундук</figcaption>
+					<img src="..\laba\img\master-img\chest.png" alt="img">
+					<span>Сундук</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5643 1.png" alt="img">
-					<figcaption>Комод</figcaption>
+					<img src="..\laba\img\master-img\commode.png" alt="img">
+					<span>Комод</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5891 1.png" alt="img">
-					<figcaption>Советское кресло</figcaption>
+					<img src="..\laba\img\master-img\armchair.png" alt="img">
+					<span>Советское кресло</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5766 1.png" alt="img">
-					<figcaption>Стол</figcaption>
+					<img src="..\laba\img\master-img\table.png" alt="img">
+					<span>Стол</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5689 1.png" alt="img">
-					<figcaption>Стул</figcaption>
+					<img src="..\laba\img\master-img\chair.png" alt="img">
+					<span>Стул</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5840 1.png" alt="img">
-					<figcaption>Обивка стула</figcaption>
+					<img src="..\laba\img\master-img\chair_upholstery.png" alt="img">
+					<span>Обивка стула</span>
 				</div>
 				<div>
-					<img src="..\laba\images\master-img\IMG_5756 1.png" alt="img">
-					<figcaption>Ремонт стула</figcaption>
+					<img src="..\laba\img\master-img\chair_repair.png" alt="img">
+					<span>Ремонт стула</span>
 				</div>
 			</div>
 		</section>
@@ -134,49 +163,55 @@
 			<h1>Мастер-классы по столярному делу</h1>
 			<div class="mast_k-box">
 				<div class="left">
-					<img src="..\laba\images\master-img\Rectangle 44.png" alt="img">
-					<figcaption>Консольный столик</figcaption>
+					<img src="..\laba\img\master-img\table_master_class.png" alt="img">
+					<span>Консольный столик</ы>
 				</div>
 				<div class="right">
-					<img src="..\\laba\images\master-img\milan-popovic-BmyXTxyDL-I-unsplash 1.png" alt="img">
-					<figcaption>Столярное дело для начинающих</figcaption>
+					<img src="..\laba\img\master-img\master_class_for_beginners.png" alt="img">
+					<span>Столярное дело для начинающих</span>
 				</div>
 			</div>
 		</section>
-
-		<section class="info">
-			<div class="info_box">
-				<h1>Руководство по редизайну деревянной мебели</h1>
-				<p>Здесь мы собрали всю информацию от подбора инстурментов и материалов
-					до сборки мебели и фурнитуры. Чтобы вы самостоятельно могли разобраться
-					с нюансами работы со старой мебелью из дерева. Наше руководство
-					непременно станет вашей настольной книгой по реставрации мебели.</p>
-				<button class="info-box__button">Подробнее</button>
-				<img src="..\laba\images\master-img\Rectangle 91.png" alt="img">
+		
+		<section>
+			<div class="info">
+				<div class="info_box">
+					<h2>Руководство по редизайну деревянной мебели</h2>
+					<div class="descrip">
+						<p>Здесь мы собрали всю информацию от подбора инстурментов и материалов
+							до сборки мебели и фурнитуры. Чтобы вы самостоятельно могли разобраться
+							с нюансами работы со старой мебелью из дерева. Наше руководство
+							непременно станет вашей настольной книгой по реставрации мебели.</p>
+						<button class="info-box__button">Подробнее</button>
+					</div>
+				</div>
+				<img src="..\laba\img\master-img\design.png" alt="img">
 			</div>
+			
 		</section>
+
 	</main>
 	<footer class="footer">
 		<div class="footer-inner">
 			<div>
-				<p>ИП Колодезников-Матчитов Н.И.
+				<p>ИП Колодезников-Матчитов Н.И.<br>
 					ИНН 143515646663</p>
 			</div>
 			<div>
-				<a href="">Мастер-классы</a>
-				<a href="">Мебель на заказ</a>
+				<a href="./master.html">Мастер-классы</a>
+				<a href="./index.html">Мебель на заказ</a>
 			</div>
 			<div>
-				<a href="">Контакты</a>
-				<a href="">О нас</a>
+				<a href="#">Контакты</a>
+				<a href="./about.html">О нас</a>
 			</div>
 			<div>
-				<a href="">Политика кофиденциальности</a>
-				<a href="">Договор оферты</a>
+				<a href="#">Политика кофиденциальности</a>
+				<a href="#">Договор оферты</a>
 			</div>
 			<div>
-				<a href=""><img src="..\laba\images\Group 23.png" alt="img"></a>
-				<a href=""><img src="..\laba\images\Group 22.png" alt="img"></a>
+				<a href="#"><img src="..\laba\img\inst.png" alt="img"></a>
+				<a href="#"><img src="..\laba\img\whatsapp.png" alt="img"></a>
 			</div>
 		</div>
 	</footer>
