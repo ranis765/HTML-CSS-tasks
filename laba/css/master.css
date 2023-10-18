@@ -50,16 +50,7 @@ h2{
     line-height: 150%; 
    
 }
-.num-bolt{
-    font-family: 'Tenor Sans', sans-serif;
-    color: #57463A;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    text-align: center;
-    padding-top: 157.5px; 
-}
+
 .navigate{
     display: flex;
     align-items: center;

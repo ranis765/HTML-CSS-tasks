@@ -47,16 +47,7 @@ h2{
     line-height: 150%; 
     padding-bottom: 100px;  
 }
-.num-bolt{
-    font-family: 'Tenor Sans', sans-serif;
-    color: #57463A;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    text-align: center;
-    padding-top: 157.5px; 
-}
+
 .navigate{
     display: flex;
     align-items: center;
@@ -74,7 +65,7 @@ h2{
     margin-left: 155px;
 }
 
-.top-title{
+.main-title{
     background-image: url(../img/custom_furniture-img/background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,23 +80,24 @@ h2{
     align-items: center;
     height: 639px;
 }
-.top-title h1{
+.main-title h1{
+    color:#F6F6F6;
+    line-height: 90px;
+}
+.main-title p{
     color:#F6F6F6;
 }
-.top-title p{
-    color:#F6F6F6;
-}
-.top-title_name{
+.main-title_name{
     padding-top: 25px;
     padding-bottom: 90px;
 }
-.top-title_button{
+.main-title_button{
     padding: 18px 92px;
     color:#715B4B;
     font-weight: 700;
     border: none;
 }
-.advantages h2{
+.advantages_title{
     padding-top: 160px;
     padding-left: 142px;
 }
@@ -121,21 +113,14 @@ h2{
     width: 320px;
 }
 .advantages-table_info .line{
-    border:#715B4B solid 1px;
+    border:#715B4B solid 0.1px;
     width: 200px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
-b{
-    font-family: 'Open Sans';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 24px */
-    color: #323232;
-}
 
-.portfolio h2{
+
+.portfolio_title{
     padding-left: 134px;
 }
 .port-slider{
@@ -144,7 +129,7 @@ b{
     flex-wrap: wrap;
     gap: 20px 16px;
 }
-.stages h2{
+.stages_title{
     padding-left: 134px;
 }
 .stages-box{
@@ -186,7 +171,7 @@ b{
 
 
 
-.feedback h2{
+.feedback_title{
     padding-left: 140px;
 }
 .feedback-images{

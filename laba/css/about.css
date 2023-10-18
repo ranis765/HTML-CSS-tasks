@@ -52,18 +52,18 @@ h1{
 .navigate-item_link2{
     margin-left: 155px;
 }
-.top-title{
+.main-title{
     padding: 120px 140px 160px;
 }
-.top-title_header{
+.main-title_header{
     text-align: center;
     padding-bottom: 40px;
 }
-.top-cell{
+.main-cell{
     display: flex;
     justify-content: space-between;
 }
-.top-data{
+.main-data{
     font-family: 'Tenor Sans', sans-serif;
     color: #57463A;
     font-size: 48px;
