@@ -43,10 +43,24 @@
 			<div class="main-title">
 				<p>Воплотим вашу любую задумку в реальность</p>
 				<h1>Столярная мастерская <br>NIKASON BRAND</h1>
-				<button class="main-title_button">Заказать мебель</button>
+				<button id="myBtn" class="main-title_button">Заказать мебель</button>
 			</div>
 
 		</section>
+
+		<!-- Модальный -->
+		<div id="myModal" class="modal">
+
+			<!-- Модальное содержание -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<p>Имя</p>
+				<input type="text" name="contact_name" id="first_name">
+				<p>Номер телефона</p>
+				<input type="text" name="contact_number" id="telefon_num">
+				<button id="contact" class="contact_button">Связаться с нами</button>
+			</div>
+		</div>
 
 		<section class="container">
 			<h2 class="advantages_title">Почему выбирают нас</h2>
@@ -88,17 +102,27 @@
 		<section class="container">
 
 			<h2 class="portfolio_title">Портфолио</h2>
-			<div class="port-slider">
-				<img src="..\laba\img\custom_furniture-img\portfolio-1.jpg" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-2.jpg" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-3.jpg" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-4.png" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-5.jpg" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-6.png" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-7.jpg" alt="img">
-				<img src="..\laba\img\custom_furniture-img\portfolio-8.png" alt="img">
-			</div>
 
+			<div class="port-slider">
+				<img src="..\laba\img\custom_furniture-img\portfolio-1.jpg" class="bigimage" alt="img">
+
+				<div class="slider-button">
+					<div class="button -prev"> <img src="/laba/img/strel.png" alt="" id="prev"></div>
+					<div class="slider-container">
+						<img src="..\laba\img\custom_furniture-img\portfolio-2.jpg" class="smallImage" alt="img">
+						<img src="..\laba\img\custom_furniture-img\portfolio-3.jpg" class="smallImage" alt="img">
+						<img src="..\laba\img\custom_furniture-img\portfolio-4.png" class="smallImage" alt="img">
+						<img src="..\laba\img\custom_furniture-img\portfolio-5.jpg" class="smallImage" alt="img">
+						<img src="..\laba\img\custom_furniture-img\portfolio-6.png" class="smallImage" alt="img">
+						<img src="..\laba\img\custom_furniture-img\portfolio-7.jpg" class="smallImage" alt="img">
+						<img src="..\laba\img\custom_furniture-img\portfolio-8.png" class="smallImage" alt="img">
+					</div>
+
+					<div class="button -next"> <img src="/laba/img/strel.png" alt="" id="next"></div>
+				</div>
+
+			</div>
+			</div>
 		</section>
 
 		<section class="stages container">
@@ -177,6 +201,7 @@
 		</div>
 
 	</footer>
+	<script src="/js/script.js"></script>
 </body>
 
 </html>

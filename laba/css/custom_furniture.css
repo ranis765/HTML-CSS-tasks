@@ -97,6 +97,73 @@ h2{
     font-weight: 700;
     border: none;
 }
+.vn{
+   display:block;
+   
+}
+
+/* Модальный (фон) */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+  }
+  
+  /* Модальное содержание/коробка */
+  .modal-content {
+    
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% сверху и по центру */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; /* Может быть больше или меньше, в зависимости от размера экрана */
+   
+  }
+  
+  input[type=text]{ 
+      width: 100%; 
+      padding: 12px 20px; 
+      margin: 8px 0; 
+      display: inline-block; 
+      border: 2px solid #ccc; 
+      box-sizing: border-box; 
+  } 
+
+
+  .contact_button {
+   
+    background-color: rgba(102, 91, 42, 0.96); 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        cursor: pointer; 
+        width: 100%; 
+    
+    
+  }
+  /* Кнопка закрытия */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
 .advantages_title{
     padding-top: 160px;
     padding-left: 142px;
@@ -124,10 +191,23 @@ h2{
     padding-left: 134px;
 }
 .port-slider{
-    padding: 0 311px 160px;
+    padding: 0 250px 160px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   
+}
+.bigimage {
+    width: 818px;
+    height: 695px;
+    margin: auto;
+}
+.smallImage {
+    width: 103px;
+    height: 103px;
 }
 .stages_title{
     padding-left: 134px;
@@ -225,3 +305,54 @@ h2{
 li{
     list-style: none;
 }
+
+
+.slider-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   margin: auto;
+   
+  }
+  
+  .slider-button .button {
+    display: block;
+    
+    cursor: pointer;
+  }
+  
+  
+  .slider-button .button.-prev {
+    transform: rotate(180deg);
+  }
+  .slider-button .button:hover {
+    opacity: 1;
+  }
+  
+  .slider-button .dots {
+    max-width: 100%;
+    cursor: default;
+  }
+  
+  .slider-button .dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #000;
+    border-radius: 100%;
+    opacity: .65;
+  }
+  
+  .slider-button .dot:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+  .slider-button .dot:not(.--active):hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .slider-button .dot.--active {
+    background: #000;
+  }

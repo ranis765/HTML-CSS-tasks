@@ -6,7 +6,7 @@ function isPalindrome(str) {
 console.log(isPalindrome('дед'));
 console.log(isPalindrome('ИскАть таКси'));
 console.log(isPalindrome('Крот'));
-
+ 
 
 // 5 задача
 function extractDigits(str) {
