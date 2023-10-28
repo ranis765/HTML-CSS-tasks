@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/kontrolnaya/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Ubuntu:wght@300;500&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&family=Ubuntu:wght@300;500&display=swap"
+		rel="stylesheet">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header container">
+		<nav class="navigate">
+			<a href="#">
+				<div class="logo"><img src="img/logo.svg" alt="logo"></div>
+			</a>
+			<ul class="navigate-item">
+				<li class="navigate-item_link1"><a href="#">Главная</a></li>
+				<li><a href="#">О событии </a></li>
+				<li class="navigate-item_link2"><a href="#">Докладчики</a></li>
+				<li class="navigate-item_link2"><a href="#" id="myBtn">Регистрация</a></li>
+			</ul>
+
+		</nav>
+	</header>
+	<main>
+		<section class="container">
+
+			<div class="main-title">
+
+				<h1>Бесплатный урок по черчению</h1>
+				<p>Наши преподователи проведут вас по увлекательному миру черчения.<br>Покажут основные техники
+					черчения.<br> А также под их чутким руководством сможете сами почертить.</p>
+				<p>Место проведения: г. Казань ул. Максима Горького д.12 <br>
+					Время проведения: 01.01.2023 12:00</p>
+			</div>
+
+		</section>
+
+		<!-- Модальный -->
+		<div id="myModal" class="modal">
+
+			<!-- Модальное содержание -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<p>Имя</p>
+				<input type="text" name="contact_name" id="first_name">
+				<p>Адрес электронной почты</p>
+				<input type="text" name="contact_email" id="email">
+				<p>Коментарий</p>
+				<input type="text" name="contact_comment" id="comment">
+				<button id="contact" class="contact_button">Зарегистрироваться</button>
+			</div>
+		</div>
+		<section class="container review-family">
+			<h2>Наши мастера</h2>
+			<div class="review-family_items">
+				<img class="items_img" src="./img/prof.jpg" alt="img">
+				<div class="review_text">
+					<h3>Иванов Иван Иванович</h3>
+					<p>Иван Иванов - профессор Московского Государственного Университета. Выдающийся мастер в своем
+						деле. Лауреат Нобелевской премии.</p>
+
+				</div>
+			</div>
+			
+		</section>
+	</main>
+
+	<footer class="container">
+
+		<div class="footer-inner">
+			<p>
+				Хайруллин Ранис Рамилевич<br>
+				rannis02@mail.ru
+			</p>
+			<ul class="footer-inner_items">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">О событии</a></li>
+			</ul>
+			<ul class="footer-inner_items">
+				<li><a href="#">Докладчики</a></li>
+				<li><a href="#">Регистрация</a></li>
+			</ul>
+
+			<div class="footer-inner_link">
+				<a href="#"><img src="..\laba\img\inst.png" alt="img"></a>
+				<a href="#"><img src="..\laba\img\whatsapp.png" alt="img"></a>
+			</div>
+
+		</div>
+
+	</footer>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

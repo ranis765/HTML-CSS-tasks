@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    background-color:rgb(177, 169, 144);
+    align-items: center;
+    
+}
+
+
+header a{
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    color: #323232;
+}
+h1{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #57463A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+.navigate{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #000;
+    padding: 28px 141px 19px;
+    justify-content: space-between;
+  
+}
+.navigate-item{
+    display: flex;
+}
+.navigate-item_link1{
+    margin-right: 98px;
+}
+.navigate-item_link2{
+    margin-left: 155px;
+	
+}
+
+
+.main{
+    display: flex;
+}
+
+.main-info{
+    width: 100%;
+    border-bottom: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.main-info_text{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    padding-bottom: 17px;
+}
+.main-info_title{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.main-info_link{
+    display: flex;
+    gap: 40px;
+   justify-content: flex-end;
+   padding-right: 140px;;
+}
+
+
+
+
+
+
+.main-title{
+    background: url(/kontrolnaya/img/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    padding: 30px 80px 107px;
+    color: #645d5d;
+    align-items: center;
+    height: 639px;
+}
+.main-title h1{
+    color:#141010;
+    line-height: 90px;
+}
+.main-title p{
+	color:#141010;
+	font-size: 35px;
+}
+.main-title_name{
+    padding-top: 25px;
+    padding-bottom: 90px;
+}
+
+.items_img{
+	width: 700px;
+	height: 475px;
+}
+
+
+
+.review_info{
+    padding: 160px 134px 160px 135px;
+}
+.review-info_text{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6px;
+}
+.review-info_text p{
+    text-align: center;
+    width: 26px; 
+}
+.review-info_text .line{
+    width: 360px;
+    border-bottom: solid 3px #715B4B;
+}
+
+.review-info_table{
+    padding: 0 140px 160px;
+}
+
+
+
+.review-family h2{
+    padding-left: 140px;
+}
+.review-family_items{
+    display: flex;
+}
+.review_text{
+    padding: 68px 220px 48px 40px;
+    background: #EBEEEB;
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+
+
+
+
+.footer-inner{
+    background-color: #452c17;
+    padding: 84px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inner_items{
+    display: flex;
+    flex-direction: column;
+}
+.footer-inner_link{
+    max-width: 130px;
+    display: flex;
+    gap:18px;
+    flex-wrap: wrap;
+}
+.footer-inner p{
+    color: #fff;
+}
+.footer-inner a{
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+
+
+
+
+/* Модальный (фон) */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+  }
+  
+  /* Модальное содержание/коробка */
+  .modal-content {
+    
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% сверху и по центру */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; /* Может быть больше или меньше, в зависимости от размера экрана */
+   
+  }
+  
+  input[type=text]{ 
+      width: 100%; 
+      padding: 12px 20px; 
+      margin: 8px 0; 
+      display: inline-block; 
+      border: 2px solid #ccc; 
+      box-sizing: border-box; 
+  } 
+
+
+  .contact_button {
+   
+    background-color: rgba(102, 91, 42, 0.96); 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        cursor: pointer; 
+        width: 100%; 
+    
+    
+  }
+  /* Кнопка закрытия */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
